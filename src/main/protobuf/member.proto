@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.kingbom.springprotobuf";
+
+message Member {
+   string id = 1;
+   string name = 2;
+   double weight = 3;
+   double height = 4;
+}
+
+message Members {
+  repeated Member members = 1;
+}
